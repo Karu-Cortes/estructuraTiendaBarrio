@@ -12,16 +12,14 @@ public final class MenuFinal {
                  2. Modificar producto                    |
                  3. Buscar producto                       |
                  4. Lista  productos                      |
-                 5. Agregar Compra                        |
-                 6. Modificar Compra                      |
-                 7. Buscar Compra                         |
-                 7. Agregar venta                         |
-                 8. Modificar venta                       |
-                 9. Buscar venta                          |
-                 10.Inventario                            |
-                 11.Salir menú                            |
+                 5. Agregar Cantidades Compradas          |
+                 6. Agregar Cantidades vendidas           |
+                 7. modificar movimiento inventario       |
+                 8. Buscar movimiento inventario por ID   |
+                 9. Mostrar lista de movimientos          |
+                 10. Salir menú                           |
                  ±----------------------------------------±
-                        Ingresa tu opción:    (1 - 11)
+                        Ingresa tu opción:    (1 - 10)
                 
                 """;
 }

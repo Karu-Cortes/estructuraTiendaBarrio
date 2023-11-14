@@ -7,7 +7,7 @@ import TiendaBarrioAppMven.domain.entity.Inventory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InventoryCrud implements IGenericCrud<Inventory> {
+public class InventoryCrud implements IGenericCrud {
 
   protected final List<Inventory> inventoryList;
 
@@ -15,28 +15,24 @@ public class InventoryCrud implements IGenericCrud<Inventory> {
     this.inventoryList = new ArrayList<>();
   }
 
+
   @Override
-  public void add(Inventory entity) {
+  public void create(Object entity) {
 
   }
 
   @Override
-  public void edit(Inventory entity) {
+  public void update(Object entity) {
 
   }
 
   @Override
-  public void remove(Inventory entity) {
-
-  }
-
-  @Override
-  public Inventory findById(Integer id) {
+  public Object getByCode(int code) {
     return null;
   }
 
   @Override
-  public List<Inventory> findAll() {
+  public List getAll() {
     return null;
   }
 }
